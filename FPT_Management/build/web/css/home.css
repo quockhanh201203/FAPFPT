@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #dee2e6 #dee2e6 #f8f9fa;
+}
+
+.tab-content {
+    padding-top: 10px;
+}
+
+.img-fluid {
+    width: 200px;
+    height: 200px;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.body-content {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 80vw;
+    height: 95vh;
+    z-index: -2
+}
